@@ -38,7 +38,7 @@
 .part3b p					{ display:inline-block; width:60%;}
 .part3b span				{background-color: #000; color:#FFF; padding:5px; margin-left:10px;}
 .part3b:hover				{box-shadow:10px 15px 10px #5ec11c;}
-.part3c						{ float:right; min-height:271px; width:30%; display:inline-block; background-image: url(../Photoshop%20images/part3_image3.JPG); background-repeat:no-repeat; background-size: 100% 100%;margin:10px; box-shadow: 0 5px 10px #666666;}
+.part3c						{ float:right; min-height:271px; width:30%; display:inline-block; background-image: url(part3_image3.JPG); background-repeat:no-repeat; background-size: 100% 100%;margin:10px; box-shadow: 0 5px 10px #666666;}
 .part3c p					{font-size:20px;}
 .part3c b					{font-size:24px;}
 .part3c span				{font-size:14px; margin-left:10px; }
