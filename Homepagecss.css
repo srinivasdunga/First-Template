@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear_fix					{ clear:both;}
+.mid_wrap					{ max-width:1100px; margin:auto;}
+.commom_heading 			{ min-height:100px; width:100%;}
+.logo						{ height:110px; width:30%; float:left;}
+.logo img					{ height:80px; width:100%; padding:10px;}
+.side1						{ min-height:100px; width:65%; float:right; padding-top:20px;}
+.side1 span					{float:right; padding-right:15px; font-size:26px; font-family:"Lucida Sans Unicode", "Lucida Grande", 				sans-serif;}
+.side1 table				{float:right; padding:7px 0 10px 10px; width:100%;}
+.side1 table tr td			{padding:0 10px; color:#999;}
+.side1 table tr td:hover 	{background-color:#3F0; color:#333;}
+/* End of common heading*/
+
+/* Menu style start*/
+.menu						{ min-height:30px;width:100%;}
+.menu table					{ table-layout:auto; width:100%;}
+.menu table tr td			{ text-align:center; padding:5px 18px; color:#FFF; border:0px 1px thick #FFF; background-color:#5ec11c;}
+.menu table tr td:hover		{background-color:#999; color:#FFF; border-bottom: solid #05506f;}
+/* home page image style*/
+.menu1						{height:300px; width:100%; background-image: url(Hompage%20image.JPG); background-size: 100% 100%; background-repeat:no-repeat;}
+.menu1a						{float:right; position:relative; top:25px; right:200px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.menu1a p					{ margin-bottom:-30px; padding:0px; color: #05506f; font-size:36px;}
+.menu1a h1					{margin: 0px; padding:0px; color:#05506f; font-size:48px;}
+.menu1a span				{margin :0px; padding:0 5px; background-color: #05506f; color:#FFF;} 
+
+/* Part 3 start*/
+.part3						{min-height:100px; width:100%; display:inline-block; margin:20px 0px;}
+.part3a						{ float:left; min-height:270px; width:30%; display:inline-block; margin:10px; border: solid 1px #000000; box-shadow: 0 5px 10px #666666;}
+.part3a h3					{ border-bottom:dotted 1px #000000; width:80%; padding-left:10px; padding-bottom:5px;}
+.part3a p 					{width:80%; padding-left:10px;}
+.part3a span				{background-color: #000; color:#FFF; padding:5px; margin-left:10px;}
+.part3a:hover				{box-shadow:10px 15px 10px #5ec11c;}
+.part3b						{ min-height:270px; width:30%; display:inline-block;margin:10px; padding-left:30px; border: solid 1px #000000; box-shadow: 0 5px 10px #666666;}
+.part3b h3					{ border-bottom:dotted 1px #000000; width:80%; padding-left:10px; padding-bottom:5px;}
+.part3b img					{display:inline-block; width:20%; padding-left:10px; position:relative; top:10px;}
+.part3b p					{ display:inline-block; width:60%;}
+.part3b span				{background-color: #000; color:#FFF; padding:5px; margin-left:10px;}
+.part3b:hover				{box-shadow:10px 15px 10px #5ec11c;}
+.part3c						{ float:right; min-height:271px; width:30%; display:inline-block; background-image: url(../Photoshop%20images/part3_image3.JPG); background-repeat:no-repeat; background-size: 100% 100%;margin:10px; box-shadow: 0 5px 10px #666666;}
+.part3c p					{font-size:20px;}
+.part3c b					{font-size:24px;}
+.part3c span				{font-size:14px; margin-left:10px; }
+.part3c:hover				{box-shadow:10px 15px 10px #5ec11c;}
+/* Part 3 end*/
+
+/*Part 4 start */
+
+.part4						{min-height:100px; width:100%; display:inline-block; margin:20px 0px; color:#46466e;}
+.part4a						{width:18%; display:inline-block; padding-left:18px; float:left;}
+.part4a span				{margin-left:50px;box-shadow:5px 10px 15px #CCCCCC;}
+.part4a ul li				{border-bottom: solid 1px #CCCCCC; list-style-type: circle; color:#46466e; padding:5px 0;}
+.part4a ul li:hover			{box-shadow:5px 10px 15px #5ec11c;}
+/* Part 4 End*/
+
+/*Part 5 start*/
+.part5						{min-height:100px; width:100%; margin:20px 0px; color:#46466e;}
+.part5a						{ margin-left:150px;}
+.part5a ul li				{ display:inline; padding:0px 15px;}
+.part5a ul li:hover			{box-shadow:5px 10px 15px #5ec11c;}
+.part5b						{margin-left:220px;}
+.part5b ul li				{ display:inline;padding:0px 30px;}
+.part5b ul li:hover			{box-shadow:5px 10px 15px #5ec11c;}
+.part5b img					{height:70px; width:25%; margin-left:270px;}
+a							{text-decoration:none; color:inherit; nav-up:current;}
